@@ -1,0 +1,172 @@
+body {
+font-family: 'Helvetica Neue', Arial, sans-serif;
+background-color: #fafafa;
+color: #333;
+margin: 0;
+padding: 0;
+}
+
+/* フォーム全体 */
+.contact-form__content {
+max-width: 900px;
+margin: 40px auto;
+padding: 20px;
+background: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* 見出し */
+.page-title {
+text-align: center;
+font-size: 28px;
+font-weight: bold;
+color: #6b4f4f;
+margin-bottom: 5px;
+}
+.page-subtitle {
+text-align: center;
+font-size: 20px;
+color: #888;
+margin-bottom: 30px;
+}
+
+/* フォーム行 */
+.form__group {
+display: flex;
+align-items: flex-start;
+margin-bottom: 20px;
+flex-wrap: wrap;
+}
+
+/* 左側ラベル */
+.form__group-title {
+width: 150px;
+font-weight: bold;
+color: #5c3d3d;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin-right: 15px;
+}
+.form__label--item {
+font-size: 14px;
+}
+.form__label--required {
+color: #e74c3c;
+margin-left: 5px;
+}
+
+/* 右側入力欄 */
+.form__group-content {
+flex: 1;
+min-width: 0;
+}
+.form__group-content input,
+.form__group-content select,
+.form__group-content textarea {
+width: 100%;
+padding: 8px 10px;
+font-size: 14px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+
+
+/* 電話番号（3分割 */
+.form__group-content input[name="tel1"],
+.form__group-content input[name="tel2"],
+.form__group-content input[name="tel3"] {
+width: 100px;
+display: inline-block;
+text-align: center;
+}
+
+/*テキストエリア*/
+textarea {
+height: 120px;
+resize: vertical;
+}
+
+/*ボタン */
+.form__button {
+display: block;
+width: 100%;
+padding: 12px;
+background: #6b4f4f;
+color: #fff;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+margin-top: 30px;
+text-align: center;
+}
+.form__button:hover {
+background: #543a3a;
+}
+
+/* エラーメッセージ */
+.form__error {
+color: red;
+font-size: 13px;
+margin-top: 4px;
+margin-bottom: 10px;
+display: block;
+width: 100%;
+order: 2;
+text-align: center; 
+}
+
+
+/* エラーメッセージは入力欄の真下に */
+.name-input .form__error {
+margin-top: 4px;
+font-size: 13px;
+color: red;
+text-align: left;
+}
+
+/* お名前：姓と名を横並びにする */
+.form__name {
+display: flex;
+gap: 20px;
+}
+
+.name-input {
+flex: 1;
+}
+
+.name-input input {
+width: 100%;
+}
+
+.form__group-content label {
+display: inline-flex;
+align-items: center;
+margin-right: 20px;
+gap: 5px;
+white-space: nowrap;
+}
+
+/* 性別ラジオボタン群 */
+.form__group-content.gender-group {
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+/* ラジオボタンラベル */
+.form__group-content.gender-group label {
+display: inline-flex;
+align-items: center;
+white-space: nowrap;
+}
+
+.form__error-inline {
+margin-left: 5px;
+color: red;
+font-size: 13px;
+white-space: nowrap;
+}

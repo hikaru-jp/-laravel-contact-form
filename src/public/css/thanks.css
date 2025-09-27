@@ -1,0 +1,43 @@
+/* サンクス画面全体 */
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background: #f8f6f4;
+font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+}
+
+/* コンテナ */
+.thanks-container {
+text-align: center;
+background: #fff;
+padding: 40px 60px;
+border-radius: 8px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* メッセージ */
+.thanks-message {
+font-size: 18px;
+color: #4b3832;
+margin-bottom: 30px;
+}
+
+/* HOMEボタン */
+.btn-home {
+display: inline-block;
+padding: 12px 32px;
+background-color: #6b4f4f;
+color: #fff;
+font-size: 16px;
+font-weight: bold;
+border-radius: 4px;
+text-decoration: none;
+transition: background-color 0.3s;
+}
+
+.btn-home:hover {
+background-color: #543a3a;
+}

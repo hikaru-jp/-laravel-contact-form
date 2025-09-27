@@ -1,0 +1,109 @@
+/* 全体 */
+body {
+font-family: 'Helvetica Neue', Arial, sans-serif;
+background-color: #fafafa;
+color: #333;
+margin: 0;
+padding: 0;
+}
+
+/* コンテンツの中央寄せ */
+.contact-form__content {
+max-width: 700px;
+margin: 40px auto;
+padding: 20px;
+background: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* タイトル */
+.page-title {
+text-align: center;
+font-size: 28px;
+font-weight: bold;
+margin-bottom: 10px;
+color: #6b4f4f;
+}
+
+.page-subtitle {
+text-align: center;
+font-size: 20px;
+color: #888;
+margin-bottom: 30px;
+}
+
+/* テーブル */
+.confirm-table {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 30px;
+}
+
+.confirm-table th,
+.confirm-table td {
+padding: 12px 15px;
+border: 1px solid #ddd;
+text-align: left;
+}
+
+.confirm-table th {
+background-color: #f7f3f0;
+font-weight: bold;
+width: 25%;
+color: #5c3d3d;
+}
+
+.confirm-table td {
+background-color: #fff;
+}
+
+/* ボタン */
+.form__button {
+text-align: center;
+margin-top: 20px;
+}
+
+.form__button button,
+.form__button a {
+display: inline-block;
+padding: 10px 25px;
+margin: 0 8px;
+font-size: 16px;
+border-radius: 4px;
+text-decoration: none;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.btn-submit {
+background-color: #6b4f4f;
+color: #fff;
+}
+.btn-submit:hover {
+background-color: #543a3a;
+}
+
+/* 修正ボタン */
+.btn-cancel {
+background-color: transparent;
+color: #6b4f4f;
+border: 2px solid #6b4f4f;
+padding: 9px 23px;
+}
+.btn-cancel:hover {
+background-color: #6b4f4f;
+color: #fff;
+}
+.contact-form__content {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+font-size: 14px;
+}
+
+.confirm-table th,
+.confirm-table td {
+padding: 8px 12px;
+font-size: 14px;
+}

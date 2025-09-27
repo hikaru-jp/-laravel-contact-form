@@ -1,0 +1,99 @@
+/* ページ全体 */
+body {
+font-family: 'Helvetica Neue', Arial, sans-serif;
+background-color: #f3ece5;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+/* カード共通 */
+.auth-card {
+background: #fff;
+border-radius: 12px;
+box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+padding: 90px 80px;
+width: 800px;
+max-width: 95%;
+text-align: center;
+}
+
+/* タイトル */
+.auth-card h1 {
+font-size: 26px;
+font-weight: bold;
+color: #6b4f4f;
+margin-bottom: 30px;
+}
+
+/* 入力欄 */
+.auth-card input {
+width: 100%;
+padding: 14px 16px;
+margin: 14px 0;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 15px;
+transition: border 0.3s, box-shadow 0.3s;
+}
+
+.auth-card input:focus {
+border-color: #6b4f4f;
+box-shadow: 0 0 5px rgba(107, 79, 79, 0.3);
+outline: none;
+}
+
+/* ボタン */
+.auth-card button {
+width: 100%;
+padding: 14px;
+background: #6b4f4f;
+color: #fff;
+border: none;
+border-radius: 6px;
+font-size: 17px;
+cursor: pointer;
+transition: background 0.3s;
+margin-top: 20px;
+}
+
+.auth-card button:hover {
+background: #543a3a;
+}
+
+/* エラーメッセージ */
+.form__error {
+color: #e74c3c;
+font-size: 13px;
+margin-top: -8px;
+margin-bottom: 10px;
+text-align: left;
+}
+
+body {
+padding-top: 80px;
+}
+
+/* 入力フォーム ラベルと入力欄を縦並びにする */
+.form__group {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-bottom: 20px;
+width: 100%;
+}
+
+/* ラベルデザイン */
+.form__group label {
+font-size: 15px;
+font-weight: bold;
+margin-bottom: 6px;
+color: #333;
+}
+
+/* 入力欄 マージン調整 */
+.form__group input {
+margin: 0;
+}
