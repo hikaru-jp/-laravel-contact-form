@@ -150,7 +150,7 @@
                             <p><strong>種類:</strong> ${data.category?.name ?? ''}</p>
                             <p><strong>内容:</strong> ${data.content}</p>
                             <p><strong>登録日:</strong> ${formattedDate}</p>
-                             <button id="deleteBtn">削除</button>
+                            <button id="deleteBtn">削除</button>
                         `;
 
                         // 削除ボタンの動作を定義

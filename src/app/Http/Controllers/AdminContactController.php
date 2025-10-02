@@ -53,7 +53,9 @@ class AdminContactController extends Controller
         }
 
         // ページネーション（7件ごと）
-        $contacts = $query->orderBy('created_at', 'desc')->paginate(7);
+        $contacts = $query->orderBy('created_at', 'desc')
+        ->paginate(7)
+        ->appends($request->all());
 
         // カテゴリー一覧を検索フォームに渡す
         $categories = Category::all();
